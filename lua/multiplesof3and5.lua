@@ -8,4 +8,4 @@ local function sumofmultiplesof3or5inrange(start_range,end_range)
     return sum
 end
 
-return sumofmultiplesof3or5inrange(1,999)
+return string.format("The result is %d",sumofmultiplesof3or5inrange(1,999))
