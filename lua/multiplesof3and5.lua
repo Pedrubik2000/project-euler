@@ -8,4 +8,4 @@ local function sumofmultiplesof3or5inrange(start_range,end_range)
     return sum
 end
 
-return string.format("The result is %d",sumofmultiplesof3or5inrange(1,999))
+return string.format("The result of sum of multiples of 3 and 5 from 1 to 1000 is %d",sumofmultiplesof3or5inrange(1,999))
